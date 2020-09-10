@@ -7,9 +7,7 @@ import html2text
 import difflib
 import save 
 response = save.save_response()
-print(response)
 oldhash= save.save_oldhash()
-print(oldhash)
 newresponse1= urllib.request.urlopen('file:///C:/Users/KrizelDias/Desktop/test.html').read()
 newhash = hashlib.sha224(newresponse1).hexdigest()
 if(oldhash==newhash):
@@ -23,10 +21,8 @@ else:
     count=0
     for tag, i1, i2, j1, j2 in diff.get_opcodes():
         count=count+1
-        print(tag)
         if(tag == "insert" or tag == "replace"):
                     result = newresponse[j1:j2+1]
-                    print(count)
                     if(tag=="insert"):
                         print("new contents that are {}ed on webpage at line location {} = {}".format(tag,count,result))
                     else:
