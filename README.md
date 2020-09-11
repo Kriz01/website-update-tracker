@@ -1,12 +1,10 @@
 # WebSite Update Tracker
-This Application monitors any Webpage for changes<br/>
-This Application when run will produce a HTML page as shown below
-<br/>
+This Application monitors any Webpage for changes, when run will produce a HTML page as shown below
 <br/>
 <img src="https://raw.githubusercontent.com/Kriz01/website-update-tracker/master/website.PNG" width="600px">
 ### What are its features?
-* Detection of any change/update on the WebSite.
-* Provides Detailed Information about the change done on the WebSite.
+* Detection of any change/update on the website.
+* Provides detailed information about the change done on the website.
 
 ### Prerequisites
 * Python3 has to be installed
@@ -23,11 +21,11 @@ This Application when run will produce a HTML page as shown below
   ```
 * Make changes to the config.py.</br>
   
-* Run the below command on command line to save the contents of the Website we want to monitor</br>
+* Run the command on command line to save the contents of the Website we want to monitor</br>
   ```bash
   python main.py
   ```
-* Run the below command on command line to check for any updates on the Website </br>
+* Run the command on command line to check for any updates on the Website </br>
   ```bash
   python compare_hash.py
   ```
