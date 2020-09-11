@@ -1,7 +1,7 @@
 # WebSite Update Tracker
 This Application monitors any Webpage for changes, when run will produce a HTML page as shown below
 <br/>
-<img src="https://raw.githubusercontent.com/Kriz01/website-update-tracker/master/website.PNG" width="600px">
+<img src="https://raw.githubusercontent.com/Kriz01/website-update-tracker/master/website.PNG" width="1000px">
 ### What are its features?
 * Detection of any change/update on the website.
 * Provides detailed information about the change done on the website.
