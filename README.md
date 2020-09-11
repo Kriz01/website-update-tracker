@@ -1,4 +1,4 @@
-# WebPage Change Tracker
+# WebSite Update Tracker
 This Application monitors webpage.<br/>
 ### What are its features?
 * Detection of any change/update done on the webpage
