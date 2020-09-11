@@ -7,9 +7,10 @@ import html2text
 import difflib
 import save 
 import index
+import config
 response = save.save_response()
 oldhash= save.save_oldhash()
-newresponse1= urllib.request.urlopen('file:///C:/Users/KrizelDias/Downloads/html/TMPH00033/index.html').read()
+newresponse1= urllib.request.urlopen(config.url).read()
 newhash = hashlib.sha224(newresponse1).hexdigest()
 index.create_html_file()
 
