@@ -13,7 +13,6 @@ newresponse1= urllib.request.urlopen('file:///C:/Users/KrizelDias/Downloads/html
 newhash = hashlib.sha224(newresponse1).hexdigest()
 index.create_html_file()
 
-
 if(oldhash==newhash):
     html_str = """
     <div class="bg">
@@ -47,9 +46,7 @@ else:
         if(tag == "insert" or tag == "replace"):
                     result = newresponse[j1:j2+1]
                     if(tag=="insert"):
-                       
                         contents="New contents added on the WebSite = '{}'".format(result)
-                        
                         html_str = f"""
                         <div class="header_text">
                         <h3 style="font-family:courier;">{contents}</h3>
