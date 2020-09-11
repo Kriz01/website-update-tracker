@@ -2,8 +2,9 @@ import urllib.request
 import  html2text
 import hashlib
 import pickle 
+import config
 def write_file():
-    response1= urllib.request.urlopen('ENTER THE WEBSITE LINK YOU WANT TO MONITOR').read()
+    response1= urllib.request.urlopen(config.url).read()
     response = response1.decode("utf-8", "ignore")
     response = html2text.html2text(response)
     oldhash = hashlib.sha224(response1).hexdigest()
