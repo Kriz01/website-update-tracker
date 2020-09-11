@@ -2,11 +2,11 @@
 This Application monitors any Webpage for changes<br/>
 This Application when run will produce a HTML page as shown below
 <br/>
+<br/>
 <img src="https://raw.githubusercontent.com/Kriz01/website-update-tracker/master/website.PNG" width="600px">
 ### What are its features?
 * Detection of any change/update on the WebSite.
-* What change has been done on the WebSite.
-* HTML page reporting whether the Webpage has been updated or not. Incase the WebSite has been updated, it will show the contents that have been updated.
+* Provides Detailed Information about the change done on the WebSite.
 
 ### Prerequisites
 * Python3 has to be installed
